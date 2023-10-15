@@ -11,6 +11,7 @@ public class TestNGDataProvider {
 	 * multiple number of times based on the data provided by the DataProvider. It
 	 * will be executed using the same instance of the test class to which the test
 	 * method belongs
+	 *
 	 */
 	@Test(dataProvider = "getData1")
 	public void showData1(int int1, String str1) {
